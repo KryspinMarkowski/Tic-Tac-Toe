@@ -25,3 +25,13 @@ Każda tura kończy się sprawdzeniem, czy któryś z graczy wygrał lub czy nas
 Podczas przeglądu projektu zauważono, że istnieje możliwość nie wykrycia zwycięstwa.  
 Dodano poprawkę polegającą na dokładnym sprawdzaniu  pól na ukos, abyzapewnić
 prawidłowe wyniki gry.
+
+## Testowanie gry
+Planowane testy obejmują:
+- sprawdzanie poprawności działania logiki gry,
+- obsługę błędnych ruchów graczy, np. wybranie zajętego pola
+- wykrywanie zwycięstwa oraz remisu,
+- poprawność działania planszy i zmiany graczy.
+
+Celem testów jest zapewnienie stabilności i poprawności działania gry przed jej
+ewentualną implementacją.
