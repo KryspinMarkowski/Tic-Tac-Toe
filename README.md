@@ -20,3 +20,8 @@ Każde pole planszy może przyjmować jeden z trzech stanów: puste, X lub O.
 Logika gry obejmuje obsługę ruchów graczy, sprawdzanie poprawności ruchu
 oraz zmianę aktualnego gracza po każdym ruchu.  
 Każda tura kończy się sprawdzeniem, czy któryś z graczy wygrał lub czy nastąpił remis.
+
+### Poprawki w logice zwycięstwa
+Podczas przeglądu projektu zauważono, że istnieje możliwość nie wykrycia zwycięstwa.  
+Dodano poprawkę polegającą na dokładnym sprawdzaniu  pól na ukos, abyzapewnić
+prawidłowe wyniki gry.
