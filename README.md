@@ -15,3 +15,8 @@ Gracze wykonują ruchy naprzemiennie symbolami O i X.
 ## Plansza gry
 Plansza gry została zaprojektowana jako siatka 3x3 bez bocznych krawędzi.
 Każde pole planszy może przyjmować jeden z trzech stanów: puste, X lub O.
+
+## Logika gry
+Logika gry obejmuje obsługę ruchów graczy, sprawdzanie poprawności ruchu
+oraz zmianę aktualnego gracza po każdym ruchu.  
+Każda tura kończy się sprawdzeniem, czy któryś z graczy wygrał lub czy nastąpił remis.
